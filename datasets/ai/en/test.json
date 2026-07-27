@@ -1,0 +1,548 @@
+[
+    {
+        "id": 1,
+        "reference": "Agus Juhana STEl",
+        "source_valid": "mixed",
+        "checked": true,
+        "level": "easy",
+        "sub-theme": "Basic Programming Syntax - Functions (Geometry Application)",
+        "judul": "Calculating the Area of a Circle",
+        "soal": "Create a Python function to calculate the area of a circle given its radius. Use pi = 3.14.",
+        "expected_output": "If r=10, then area=314.0"
+    },
+    {
+        "id": 2,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Detecting Odd Numbers",
+        "soal": "Create a function to check whether a number is odd or even.",
+        "expected_output": "The number 7 is Odd",
+        "level": "easy"
+    },
+    {
+        "id": 3,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Basic Programming Syntax - Functions (Arithmetic Operations)",
+        "judul": "Adding Two Numbers",
+        "soal": "Create a function to add two numbers.",
+        "expected_output": "The sum of 3 + 5 = 8",
+        "level": "easy"
+    },
+    {
+        "id": 4,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Basic Programming Syntax - Functions (Geometry Application)",
+        "judul": "Calculating the Area of a Square",
+        "soal": "Create a function to calculate the area of a square given its side length.",
+        "expected_output": "If side=4, then area=16",
+        "level": "easy"
+    },
+    {
+        "id": 5,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Basic Programming Syntax - Functions (Geometry Application)",
+        "judul": "Calculating the Perimeter of a Square",
+        "soal": "Create a function to calculate the perimeter of a square.",
+        "expected_output": "If side=4, then perimeter=16",
+        "level": "easy"
+    },
+    {
+        "id": 6,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Basic Programming Syntax - Unit Conversion",
+        "judul": "Converting Celsius to Fahrenheit",
+        "soal": "Create a function to convert temperature from Celsius to Fahrenheit.",
+        "expected_output": "30°C = 86.0°F",
+        "level": "easy"
+    },
+    {
+        "id": 7,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Determining the Largest Number",
+        "soal": "Create a function to determine the largest of two numbers.",
+        "expected_output": "The largest number between 10 and 7 is 10",
+        "level": "easy"
+    },
+    {
+        "id": 8,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - String",
+        "judul": "Calculating String Length",
+        "soal": "Create a function to calculate the number of characters in a string.",
+        "expected_output": "The length of the string 'Python' is 6",
+        "level": "easy"
+    },
+    {
+        "id": 9,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - String",
+        "judul": "Reversing a String",
+        "soal": "Create a function to reverse a string.",
+        "expected_output": "'Python' reversed becomes 'nohtyP'",
+        "level": "easy"
+    },
+    {
+        "id": 10,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Looping Logic",
+        "judul": "Calculating Factorial",
+        "soal": "Create a function to calculate the factorial of a number.",
+        "expected_output": "The factorial of 5 is 120",
+        "level": "easy"
+    },
+    {
+        "id": 11,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Looping Logic",
+        "judul": "Displaying Numbers 1-10",
+        "soal": "Create a program to display numbers from 1 to 10 using a loop.",
+        "expected_output": "1 2 3 4 5 6 7 8 9 10",
+        "level": "easy"
+    },
+    {
+        "id": 12,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - List",
+        "judul": "Summing Numbers in a List",
+        "soal": "Create a function to sum all the numbers in a list.",
+        "expected_output": "The sum of [1,2,3,4] is 10",
+        "level": "easy"
+    },
+    {
+        "id": 13,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - List",
+        "judul": "Finding the Maximum Value in a List",
+        "soal": "Create a function to find the largest value in a list.",
+        "expected_output": "The largest value in [2,5,1,9] is 9",
+        "level": "easy"
+    },
+    {
+        "id": 14,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - String",
+        "judul": "Checking for Palindromes",
+        "soal": "Create a function to check whether a word is a palindrome.",
+        "expected_output": "'katak' is a palindrome",
+        "level": "easy"
+    },
+    {
+        "id": 15,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - List",
+        "judul": "Calculating the Average",
+        "soal": "Create a function to calculate the average of a list of numbers.",
+        "expected_output": "The average of [2,4,6,8] is 5.0",
+        "level": "easy"
+    },
+    {
+        "id": 16,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Basic Programming Syntax - Unit Conversion",
+        "judul": "Converting Seconds to Minutes",
+        "soal": "Create a function to convert seconds to minutes.",
+        "expected_output": "120 seconds = 2.0 minutes",
+        "level": "easy"
+    },
+    {
+        "id": 17,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - String",
+        "judul": "Removing Spaces from a String",
+        "soal": "Create a function to remove all spaces from a string.",
+        "expected_output": "'hello world' becomes 'helloworld'",
+        "level": "easy"
+    },
+    {
+        "id": 18,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Data Structures - String",
+        "judul": "Counting the Number of Vowels",
+        "soal": "Create a function to count the number of vowel letters in a string.",
+        "expected_output": "The number of vowels in 'python' is 1",
+        "level": "easy"
+    },
+    {
+        "id": 19,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Determining a Leap Year",
+        "soal": "Create a function to determine whether a year is a leap year.",
+        "expected_output": "The year 2024 is a leap year",
+        "level": "easy"
+    },
+    {
+        "id": 20,
+        "checked": true,
+        "source_valid": "mixed",
+        "reference": "Agus Juhana STEl",
+        "sub-theme": "Structured Algorithms - Data Sorting",
+        "judul": "Sorting a List",
+        "soal": "Create a function to sort a list of numbers in ascending order.",
+        "expected_output": "[3,1,4,2] becomes [1,2,3,4]",
+        "level": "easy"
+    },
+    {
+        "id": 22,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_1 Hal 139",
+        "sub-theme": "Structured Algorithms - Data Searching",
+        "judul": "Case Study: Searching for a Name in a Student List",
+        "soal": "Create a Python program to search for a student's name in a name list using Linear Search and Binary Search. Compare the efficiency of both algorithms and explain when each is more appropriate to use.",
+        "expected_output": "Name list ['Andi','Budi','Citra','Dewi','Eka'], searching for 'Citra' -> Linear Search: found at index 2 (3 comparisons); Binary Search (after sorting): found at index 2 (2 comparisons).",
+        "level": "medium",
+        "hints": [
+            "pseudocode",
+            "code"
+        ]
+    },
+    {
+        "id": 23,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_1 Hal 141",
+        "sub-theme": "Structured Algorithms - Data Searching",
+        "judul": "Case Study: Searching for a Product Price on an E-Commerce Site",
+        "soal": "An online store has a sorted list of product prices. Create a Python program that uses Binary Search to find a specific product price and display its position if found.",
+        "expected_output": "Price list [10000, 15000, 20000, 25000, 30000], searching for 20000 -> found at index 2",
+        "level": "medium",
+        "hints": [
+            "pseudocode",
+            "code"
+        ]
+    },
+    {
+        "id": 24,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_1 Hal 143",
+        "sub-theme": "Structured Algorithms - Data Searching",
+        "judul": "Case Study: Searching for an Employee Number in a Database",
+        "soal": "A company stores employee numbers in a sorted list. Create a Python program using Binary Search to find a specific employee number and display the search result.",
+        "expected_output": "Employee number list [101, 105, 110, 115, 120], searching for 110 -> found at index 2",
+        "level": "medium",
+        "hints": [
+            "pseudocode",
+            "code"
+        ]
+    },
+    {
+        "id": 25,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_1 Hal 145",
+        "sub-theme": "Structured Algorithms - Data Searching",
+        "judul": "Case Study: Searching for a Student's Score",
+        "soal": "A list of student scores is sorted in descending order. Create a Python program that modifies Binary Search to be able to find a specific score in data arranged from largest to smallest.",
+        "expected_output": "Score list [95, 88, 76, 65, 50], searching for 76 -> found at index 2",
+        "level": "hard",
+        "hints": [
+            "pseudocode",
+            "code"
+        ]
+    },
+    {
+        "id": 26,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_1 Hal 146-148",
+        "sub-theme": "Structured Algorithms - Data Searching",
+        "judul": "Case Study: Searching for a Book in a Library",
+        "soal": "A library stores a list of book ISBN numbers. First sort the list of ISBNs, then create a Python program that uses Binary Search to find a book based on the ISBN being searched for.",
+        "expected_output": "ISBN list [9780201379624, 9780134685991, 9780441002656] sorted into [9780134685991, 9780201379624, 9780441002656], searching for 9780201379624 -> found at index 1",
+        "level": "hard",
+        "hints": [
+            "pseudocode",
+            "code"
+        ]
+    },
+    {
+        "id": 31,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_3 Hal 55 (AP-K10-07)",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Student Graduation Program",
+        "soal": "Create an automated program (algorithm/code) to determine a student's graduation status based on final score and attendance percentage, with the following conditions:\n(a) minimum final score of 75;\n(b) minimum attendance of 80%;\n(c) if the score is between 70-74, the student is still declared to pass if attendance is above 90%;\n(d) if any condition is not met, the student is declared not to pass.\nDesign the algorithm (nested if), then test it with several example values.",
+        "expected_output": "The program prints the status 'Pass' or 'Fail' according to the combination of final score and attendance input. Example: score=80, attendance=85% -> 'Pass'; score=72, attendance=95% -> 'Pass' (exception rule); score=72, attendance=85% -> 'Fail'.",
+        "level": "medium"
+    },
+    {
+        "id": 32,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_3 Hal 56 (AP-K10-08)",
+        "sub-theme": "Structured Algorithms - Data Sorting",
+        "judul": "Sorting Array Data Using Selection Sort",
+        "soal": "Create a program to automatically sort the following array data: [15, 25, 13, 5, 30, 40, 7]. Simulate and record each sorting step using the Selection Sort algorithm. Then change one of the array elements to [1, 25, 13, 5, 2, 40, 7] and analyze whether the previous simulation steps can still be directly applied.",
+        "expected_output": "[15, 25, 13, 5, 30, 40, 7] becomes [5, 7, 13, 15, 25, 30, 40]",
+        "level": "hard"
+    },
+    {
+        "id": 33,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_3 Hal 78-80 (AP-K10-09)",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Program to Identify a Rectangle or Square (Equal Sides)",
+        "soal": "Create a Python program that takes the length and width of a shape as input, then checks whether the length equals the width. If equal, display 'equal sides'; if not, display 'rectangle'.",
+        "expected_output": "Input length=10, width=10 -> output: 'equal sides'. Input length=10, width=5 -> output: 'rectangle'.",
+        "level": "easy"
+    },
+    {
+        "id": 34,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_3 Hal 81-82 (AP-K10-09)",
+        "sub-theme": "Basic Programming Syntax - Functions (Arithmetic Operations)",
+        "judul": "Program to Display Age and Birth Year",
+        "soal": "Create a Python program that takes a user's name and age as input, then calculates the birth year using the formula birth year = 2025 - age, and displays the message 'Hello, <name>, you were born in <birthyear>.'",
+        "expected_output": "Input name='Rani', age=16 -> output: 'Hello, Rani, you were born in 2009.'",
+        "level": "medium"
+    },
+    {
+        "id": 36,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "AI_REF_3 Hal 101-102 (AP-K10-12)",
+        "sub-theme": "Structured Algorithms - Rule-Based System (If-Then)",
+        "judul": "Building a Simple School Assistant Chatbot",
+        "soal": "Create a simple Python-based chatbot program (in OnlineGDB) using if-then logic to answer common school-related questions such as class schedules, subject teachers, and break times based on keywords. Test the chatbot with the questions: 'What is your teacher's name?', 'Hello', 'When is break time?', and 'Exit'.",
+        "expected_output": "'Hello' -> 'Hello! How can I help you?'; 'When is break time?' -> 'Break time is 09:30-10:00'; 'What is your teacher's name?' -> 'Your teacher is Mrs. Sari'; 'Exit' -> 'Goodbye!' (program stops)",
+        "level": "medium"
+    },
+    {
+        "id": 37,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Basic Programming Syntax - Functions",
+        "judul": "Calculating the Square of Each List Element",
+        "soal": "Create a Python function that takes a list of integers and returns a new list containing the square of each element using a lambda function.",
+        "expected_output": "Example: input [1, 2, 3, 4] -> output [1, 4, 9, 16]",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 38,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Basic Programming Syntax - Functions",
+        "judul": "Calculating the Sum of Squared Numbers",
+        "soal": "Create a Python function that takes a list of numbers and returns the sum of the squares of all the numbers in the list.",
+        "expected_output": "Example: input [1, 2, 3] -> output 14",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 39,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Structured Algorithms - Data Sorting",
+        "judul": "Sorting a List of Strings",
+        "soal": "Create a Python program that sorts a list of strings alphabetically using a built-in Python function.",
+        "expected_output": "Example: input ['jeruk', 'apel', 'mangga'] -> output ['apel', 'jeruk', 'mangga']",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 40,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Advanced Data Structures - Linked List",
+        "judul": "Creating a Singly Linked List",
+        "soal": "Create a simple implementation of a Singly Linked List in Python that has a Node class and a Linked List class, and can add new nodes to the end of the list.",
+        "expected_output": "Example: input add nodes 10, 20, 30 -> output 10 -> 20 -> 30",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 41,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Data Structures - Array",
+        "judul": "Shuffling the Order of Array Elements",
+        "soal": "Create a Python program that shuffles the order of elements in an array using the random module.",
+        "expected_output": "Example: input [1, 2, 3, 4, 5] -> output [3, 1, 5, 2, 4] (order may differ each time it is run)",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 42,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Error Analysis (Debugging)",
+        "judul": "Fixing a Program That Lists the Days of the Week",
+        "soal": "Fix the given Python program so that it correctly displays the seven days of the week with correct spelling.",
+        "expected_output": "Example: output Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 43,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Building a Simple Calculator",
+        "soal": "Create a simple calculator program in Python that can perform addition, subtraction, multiplication, and division based on the operator entered by the user.",
+        "expected_output": "Example: input 12, '+', 8 -> output 20",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 44,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Structured Algorithms - Selection Logic (Branching)",
+        "judul": "Determining the Largest Number",
+        "soal": "Create a Python function that takes two numbers as parameters and returns the larger value.",
+        "expected_output": "Example: input 15 and 27 -> output 27",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 45,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Basic Programming Syntax - Number Conversion (Number Base)",
+        "judul": "Converting a Number to Roman Numerals",
+        "soal": "Create a Python program that converts a positive integer into its Roman numeral representation.",
+        "expected_output": "Example: input 14 -> output XIV",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 46,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Basic Programming Syntax - Functions",
+        "judul": "Displaying the Squared Value of Numbers",
+        "soal": "Create a Python program that takes a list of numbers and displays the square of each number using a function.",
+        "expected_output": "Example: input [2, 4, 6] -> output [4, 16, 36]",
+        "level": "easy",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 47,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Advanced Algorithms - Greedy",
+        "judul": "Determining the Minimum Cost to Connect Points",
+        "soal": "Given a set of points on a two-dimensional plane. Create a Python program that uses a greedy algorithm to determine the total minimum cost required to connect all the points.",
+        "expected_output": "Example: input [(0,0), (2,2), (3,10), (5,2), (7,0)] -> output 20",
+        "level": "hard",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 48,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Advanced Algorithms - Graph (Dijkstra)",
+        "judul": "Determining the Shortest Path",
+        "soal": "Create a Python program that implements Dijkstra's algorithm to find the shortest path from a starting node to all other nodes in a weighted graph.",
+        "expected_output": "Example: input graph {A:{B:4,C:2}, B:{C:1,D:5}, C:{D:8,E:10}, D:{E:2}, E:{}} and starting point A -> output {'A':0,'B':4,'C':2,'D':9,'E':11}",
+        "level": "hard",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 49,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Advanced Algorithms - Dynamic Programming",
+        "judul": "Determining the Maximum Knapsack Value",
+        "soal": "Create a Python program using Dynamic Programming to solve the 0/1 Knapsack problem and determine the maximum value that can be carried without exceeding the bag's capacity.",
+        "expected_output": "Example: input weights [10,20,30], values [60,100,120], capacity 50 -> output 220",
+        "level": "hard",
+        "hints": [
+            "code"
+        ]
+    },
+    {
+        "id": 50,
+        "checked": true,
+        "source_valid": "valid",
+        "reference": "Kaggle Dataset",
+        "sub-theme": "Advanced Algorithms - Backtracking",
+        "judul": "Solving Sudoku",
+        "soal": "Create a Python program that uses a backtracking algorithm to solve an incomplete 9×9 Sudoku board.",
+        "expected_output": "Example: input incomplete Sudoku board -> output fully completed Sudoku board according to the rules of the game.",
+        "level": "hard",
+        "hints": [
+            "code"
+        ]
+    }
+]

@@ -24,10 +24,34 @@
         "solusi": "Periksa blok if, for, dan function"
     },
     {
+        "pattern": "expected an indented block",
+        "arti": "Blok kode terindentasi diharapkan tapi tidak ada",
+        "penyebab": "Setelah tanda ':' (if, for, def, dll) tidak ada baris berindentasi",
+        "solusi": "Tambahkan minimal satu baris kode berindentasi setelah tanda ':'"
+    },
+    {
+        "pattern": "EOL while scanning string literal",
+        "arti": "Baris berakhir sebelum string selesai",
+        "penyebab": "Tanda petik pembuka string tidak memiliki pasangan penutup di baris yang sama",
+        "solusi": "Pastikan setiap string diapit tanda petik pembuka dan penutup"
+    },
+    {
+        "pattern": "TabError",
+        "arti": "Campuran tab dan spasi tidak konsisten",
+        "penyebab": "Sebagian baris pakai tab, sebagian pakai spasi untuk indentasi",
+        "solusi": "Gunakan hanya spasi (disarankan 4 spasi) secara konsisten"
+    },
+    {
         "pattern": "NameError|is not defined",
         "arti": "Variabel atau fungsi tidak dikenali",
         "penyebab": "Variabel belum dibuat atau salah nama",
         "solusi": "Pastikan variabel sudah didefinisikan"
+    },
+    {
+        "pattern": "UnboundLocalError|local variable .* referenced before assignment",
+        "arti": "Variabel lokal digunakan sebelum diberi nilai",
+        "penyebab": "Variabel di dalam fungsi dipakai sebelum di-assign, atau bentrok dengan variabel global",
+        "solusi": "Assign nilai ke variabel sebelum digunakan, atau gunakan kata kunci 'global'/'nonlocal' jika perlu"
     },
     {
         "pattern": "TypeError",
@@ -42,6 +66,48 @@
         "solusi": "Periksa tipe data sebelum operasi"
     },
     {
+        "pattern": "can only concatenate str",
+        "arti": "Penggabungan string dengan tipe lain tidak diizinkan",
+        "penyebab": "Mencoba menggabungkan string dengan int/float tanpa konversi",
+        "solusi": "Gunakan str() untuk mengubah nilai non-string sebelum digabung"
+    },
+    {
+        "pattern": "not all arguments converted during string formatting",
+        "arti": "Jumlah argumen format string tidak sesuai",
+        "penyebab": "Placeholder %s/%d tidak cocok dengan jumlah nilai yang diberikan",
+        "solusi": "Sesuaikan jumlah placeholder dengan jumlah argumen"
+    },
+    {
+        "pattern": "object is not callable",
+        "arti": "Objek dipanggil seperti fungsi padahal bukan fungsi",
+        "penyebab": "Menggunakan tanda kurung () pada variabel yang bukan fungsi",
+        "solusi": "Pastikan nama yang dipanggil memang sebuah fungsi, cek juga tidak menimpa nama built-in"
+    },
+    {
+        "pattern": "object is not subscriptable",
+        "arti": "Objek tidak bisa diakses dengan indeks []",
+        "penyebab": "Mencoba mengakses elemen dari tipe data yang tidak mendukung indexing (misal int atau None)",
+        "solusi": "Pastikan variabel bertipe list/dict/string sebelum diakses dengan []"
+    },
+    {
+        "pattern": "object is not iterable",
+        "arti": "Objek tidak bisa diulang (looping)",
+        "penyebab": "Menggunakan for/in pada tipe data yang tidak mendukung iterasi",
+        "solusi": "Pastikan objek berupa list, tuple, string, atau dict"
+    },
+    {
+        "pattern": "cannot unpack non-iterable",
+        "arti": "Gagal membongkar nilai ke beberapa variabel",
+        "penyebab": "Jumlah variabel di kiri tidak sesuai dengan nilai yang bisa dibongkar",
+        "solusi": "Pastikan jumlah variabel sesuai dengan jumlah elemen yang di-unpack"
+    },
+    {
+        "pattern": "unhashable type",
+        "arti": "Tipe data tidak bisa dijadikan key",
+        "penyebab": "Menggunakan list/dict sebagai key dictionary atau elemen set",
+        "solusi": "Gunakan tipe data immutable seperti tuple atau string sebagai key"
+    },
+    {
         "pattern": "ValueError",
         "arti": "Nilai tidak valid",
         "penyebab": "Input tidak sesuai format",
@@ -54,16 +120,28 @@
         "solusi": "Pastikan input berupa angka"
     },
     {
-        "pattern": "ZeroDivisionError",
+        "pattern": "could not convert string to float",
+        "arti": "Gagal konversi ke float",
+        "penyebab": "String yang dikonversi bukan format angka desimal",
+        "solusi": "Pastikan input berupa angka valid, misal '3.14' bukan 'abc'"
+    },
+    {
+        "pattern": "ZeroDivisionError|division by zero|float division by zero",
         "arti": "Pembagian dengan nol",
         "penyebab": "Membagi angka dengan 0",
-        "solusi": "Cek pembagi sebelum operasi"
+        "solusi": "Cek pembagi sebelum operasi, misal dengan if pembagi != 0"
     },
     {
         "pattern": "IndexError|list index out of range",
         "arti": "Indeks di luar jangkauan",
         "penyebab": "Akses list melebihi panjang",
         "solusi": "Gunakan len() untuk validasi"
+    },
+    {
+        "pattern": "string index out of range",
+        "arti": "Indeks string di luar jangkauan",
+        "penyebab": "Mengakses karakter pada posisi yang melebihi panjang string",
+        "solusi": "Gunakan len() untuk memastikan indeks masih dalam batas string"
     },
     {
         "pattern": "KeyError",
@@ -78,16 +156,40 @@
         "solusi": "Periksa atribut dan tipe objek"
     },
     {
+        "pattern": "NoneType.*has no attribute",
+        "arti": "Mencoba mengakses atribut dari nilai None",
+        "penyebab": "Variabel berisi None (biasanya karena fungsi tidak mengembalikan nilai)",
+        "solusi": "Pastikan fungsi mengembalikan nilai dengan 'return' dan cek variabel tidak None sebelum diakses"
+    },
+    {
         "pattern": "ModuleNotFoundError",
         "arti": "Modul tidak ditemukan",
         "penyebab": "Modul belum diinstall",
         "solusi": "Install dengan pip"
     },
     {
+        "pattern": "cannot import name",
+        "arti": "Gagal mengimpor nama tertentu dari modul",
+        "penyebab": "Nama fungsi/kelas tidak ada di modul, salah ketik, atau circular import",
+        "solusi": "Periksa ejaan nama dan struktur import antar file"
+    },
+    {
         "pattern": "FileNotFoundError|No such file or directory",
         "arti": "File tidak ditemukan",
         "penyebab": "Path salah atau file tidak ada",
         "solusi": "Periksa lokasi file"
+    },
+    {
+        "pattern": "IsADirectoryError",
+        "arti": "Path yang dibuka adalah folder, bukan file",
+        "penyebab": "Fungsi open() diarahkan ke path direktori",
+        "solusi": "Pastikan path menunjuk ke file, bukan folder"
+    },
+    {
+        "pattern": "PermissionError",
+        "arti": "Tidak memiliki izin akses",
+        "penyebab": "Mencoba membaca/menulis file tanpa hak akses yang cukup",
+        "solusi": "Periksa izin file/folder atau jalankan dengan hak akses yang sesuai"
     },
     {
         "pattern": "missing required positional argument",
@@ -102,9 +204,69 @@
         "solusi": "Sesuaikan jumlah argumen"
     },
     {
-    "pattern": "unmatched",
-    "arti": "Tanda kurung/kurawal tidak berpasangan",
-    "penyebab": "Ada tanda penutup tanpa pasangan pembuka atau sebaliknya",
-    "solusi": "Periksa pasangan tanda (), [], {} agar seimbang"
+        "pattern": "unmatched",
+        "arti": "Tanda kurung/kurawal tidak berpasangan",
+        "penyebab": "Ada tanda penutup tanpa pasangan pembuka atau sebaliknya",
+        "solusi": "Periksa pasangan tanda (), [], {} agar seimbang"
+    },
+    {
+        "pattern": "RecursionError|maximum recursion depth exceeded",
+        "arti": "Rekursi terlalu dalam",
+        "penyebab": "Fungsi rekursif tidak memiliki kondisi berhenti (base case) yang tepat",
+        "solusi": "Pastikan ada base case yang tercapai dan mengurangi parameter setiap panggilan"
+    },
+    {
+        "pattern": "StopIteration",
+        "arti": "Iterator sudah habis",
+        "penyebab": "Memanggil next() pada iterator yang tidak memiliki elemen lagi",
+        "solusi": "Gunakan loop for atau tangani dengan try-except"
+    },
+    {
+        "pattern": "dictionary changed size during iteration",
+        "arti": "Dictionary diubah saat sedang di-looping",
+        "penyebab": "Menambah/menghapus key dictionary di dalam loop for",
+        "solusi": "Looping pada salinan dictionary, misal dict(d.items()) atau list(d.keys())"
+    },
+    {
+        "pattern": "list.*changed size during iteration",
+        "arti": "List diubah saat sedang di-looping",
+        "penyebab": "Menambah/menghapus elemen list di dalam loop for",
+        "solusi": "Looping pada salinan list, misal list(lst) atau lst[:]"
+    },
+    {
+        "pattern": "AssertionError",
+        "arti": "Pernyataan assert bernilai salah",
+        "penyebab": "Kondisi yang diuji dengan assert tidak terpenuhi",
+        "solusi": "Periksa logika program atau perbaiki nilai yang diuji"
+    },
+    {
+        "pattern": "OverflowError",
+        "arti": "Hasil perhitungan terlalu besar",
+        "penyebab": "Operasi matematika menghasilkan nilai di luar batas representasi angka",
+        "solusi": "Gunakan tipe data atau library yang mendukung angka besar, atau batasi input"
+    },
+    {
+        "pattern": "MemoryError",
+        "arti": "Memori tidak cukup",
+        "penyebab": "Program mencoba mengalokasikan data yang terlalu besar",
+        "solusi": "Kurangi ukuran data yang diproses atau optimalkan penggunaan memori"
+    },
+    {
+        "pattern": "JSONDecodeError",
+        "arti": "Gagal membaca format JSON",
+        "penyebab": "String yang diparsing bukan format JSON yang valid",
+        "solusi": "Periksa format JSON, pastikan tanda kutip dan koma sudah benar"
+    },
+    {
+        "pattern": "ConnectionError|TimeoutError",
+        "arti": "Koneksi gagal atau waktu habis",
+        "penyebab": "Server tidak merespons atau jaringan bermasalah",
+        "solusi": "Periksa koneksi internet atau coba lagi beberapa saat"
+    },
+    {
+        "pattern": "SyntaxError.*Perhaps you forgot a comma",
+        "arti": "Kemungkinan lupa menambahkan koma",
+        "penyebab": "Dua elemen dalam list/tuple/argumen ditulis berdampingan tanpa koma",
+        "solusi": "Tambahkan koma di antara elemen yang berdekatan"
     }
 ]
