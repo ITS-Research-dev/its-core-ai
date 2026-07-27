@@ -1,0 +1,90 @@
+6.5s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.5s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.5s 3 0.00s - to python to disable frozen modules.
+6.5s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.1s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.1s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.1s 7 0.00s - to python to disable frozen modules.
+7.1s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.2s 9 Sat Jul 25 14:25:21 2026
+8.2s 10 +-----------------------------------------------------------------------------------------+
+8.2s 11 | NVIDIA-SMI 580.159.04             Driver Version: 580.159.04     CUDA Version: 13.0     |
+8.2s 12 +-----------------------------------------+------------------------+----------------------+
+8.2s 13 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+8.2s 14 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+8.2s 15 |                                         |                        |               MIG M. |
+8.2s 16 |=========================================+========================+======================|
+8.2s 17 |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+8.2s 18 | N/A   53C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+8.2s 19 |                                         |                        |                  N/A |
+8.2s 20 +-----------------------------------------+------------------------+----------------------+
+8.2s 21 |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+8.2s 22 | N/A   55C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+8.2s 23 |                                         |                        |                  N/A |
+8.2s 24 +-----------------------------------------+------------------------+----------------------+
+8.2s 25 
+8.2s 26 +-----------------------------------------------------------------------------------------+
+8.2s 27 | Processes:                                                                              |
+8.2s 28 |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+8.2s 29 |        ID   ID                                                               Usage      |
+8.2s 30 |=========================================================================================|
+8.2s 31 |  No running processes found                                                             |
+8.2s 32 +-----------------------------------------------------------------------------------------+
+11.4s 33 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/885.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m885.0/885.0 kB[0m [31m29.3 MB/s[0m eta [36m0:00:00[0m
+11.7s 34 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/40.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.7/40.9 MB[0m [31m200.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.6/40.9 MB[0m [31m181.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m22.0/40.9 MB[0m [31m229.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m30.3/40.9 MB[0m [31m239.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━[0m [32m39.1/40.9 MB[0m [31m249.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m40.9/40.9 MB[0m [31m46.6 MB/s[0m eta [36m0:00:00[0m
+16.5s 35 [?25h/kaggle/input/datasets/hanzfr/train-data/train_data.jsonl
+16.5s 36 /kaggle/input/datasets/hanzfr/soal-ujian/soal_ujian.json
+16.5s 37 /kaggle/input/datasets/hanzfr/nilai-ujian/nilai_ujian.json
+16.6s 38 Usable examples: 1512
+40.7s 39 min/max: 274 1151
+40.7s 40 mean: 510.9298941798942
+40.7s 41 p95: 842
+40.8s 42 train: 1296, val: 216
+49.7s 43 `torch_dtype` is deprecated! Use `dtype` instead!
+49.7s 44 
+49.7s 45 `torch_dtype` is deprecated! Use `dtype` instead!
+112.3s 46 warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+112.3s 47 
+112.3s 48 warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+120.8s 49 Traceback (most recent call last):
+120.8s 50 File "<string>", line 1, in <module>
+120.8s 51 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+120.8s 52 raise_for_execution_errors(nb, output_path)
+120.8s 53 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+120.8s 54 raise error
+120.8s 55 papermill.exceptions.PapermillExecutionError:
+120.8s 56 ---------------------------------------------------------------------------
+120.8s 57 Exception encountered at "In [7]":
+120.8s 58 ---------------------------------------------------------------------------
+120.8s 59 AttributeError                            Traceback (most recent call last)
+120.8s 60 /tmp/ipykernel_23/1443915723.py in <cell line: 0>()
+120.8s 61 55 )
+120.8s 62 56
+120.8s 63 ---> 57 trainer = SFTTrainer(
+120.8s 64 58     model=model,
+120.8s 65 59     args=training_args,
+120.8s 66 
+120.8s 67 /usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py in __init__(self, model, args, data_collator, train_dataset, eval_dataset, processing_class, compute_loss_func, compute_metrics, callbacks, optimizers, optimizer_cls_and_kwargs, preprocess_logits_for_metrics, quantization_config, peft_config, formatting_func)
+120.8s 68 1317                             "case for you, please open an issue at https://github.com/huggingface/trl/issues."
+120.8s 69 1318                         )
+120.8s 70 -> 1319                 _patch_chunked_ce_lm_head(target, chunk_size=_CHUNKED_LM_HEAD_CHUNK_SIZE, is_vlm=self._is_vlm)
+120.8s 71 1320             else:
+120.8s 72 1321                 raise ValueError(
+120.8s 73 
+120.8s 74 /usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py in _patch_chunked_ce_lm_head(model, chunk_size, is_vlm)
+120.8s 75 375     # model's real inputs (e.g. VLM `pixel_values`, `spatial_shapes`) and doesn't reject them. The
+120.8s 76 376     # unbound `__func__` signature makes `MethodType`'s `self`-stripping land correctly.
+120.8s 77 --> 377     _chunked_ce_forward.__signature__ = inspect.signature(original_forward.__func__)
+120.8s 78 378     model.forward = types.MethodType(_chunked_ce_forward, model)
+120.8s 79 379
+120.8s 80 
+120.8s 81 AttributeError: 'functools.partial' object has no attribute '__func__'
+120.8s 82 
+123.1s 83 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+123.1s 84 cells[i][c] = re.sub('\\\\\|', '|', cell)
+123.3s 85 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+123.3s 86 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+123.9s 87 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+124.3s 88 [NbConvertApp] Writing 290619 bytes to __notebook__.ipynb
+126.8s 89 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+127.8s 90 [NbConvertApp] Writing 527794 bytes to __results__.html

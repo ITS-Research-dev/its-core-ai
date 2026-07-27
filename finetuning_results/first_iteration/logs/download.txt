@@ -1,0 +1,44 @@
+11.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+11.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+11.9s 3 0.00s - to python to disable frozen modules.
+11.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.6s 7 0.00s - to python to disable frozen modules.
+12.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.5s 9 /kaggle/input/datasets/hanzfr/nilai-ujian/nilai_ujian.json
+15.5s 10 /kaggle/input/datasets/hanzfr/train-data/train_data.jsonl
+15.5s 11 /kaggle/input/datasets/hanzfr/soal-ujian/soal_ujian.json
+15.6s 12 Usable examples: 1512
+61.1s 13 min/max: 274 1151
+61.1s 14 mean: 510.9298941798942
+61.1s 15 p95: 842
+61.1s 16 train: 1296, val: 216
+68.2s 17 Traceback (most recent call last):
+68.2s 18 File "<string>", line 1, in <module>
+68.2s 19 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+68.2s 20 raise_for_execution_errors(nb, output_path)
+68.2s 21 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+68.2s 22 raise error
+68.2s 23 papermill.exceptions.PapermillExecutionError:
+68.2s 24 ---------------------------------------------------------------------------
+68.2s 25 Exception encountered at "In [6]":
+68.2s 26 ---------------------------------------------------------------------------
+68.2s 27 ModuleNotFoundError                       Traceback (most recent call last)
+68.2s 28 /tmp/ipykernel_22/1225716949.py in <cell line: 0>()
+68.2s 29 3 from transformers import AutoModelForCausalLM, BitsAndBytesConfig
+68.2s 30 4 from peft import LoraConfig, prepare_model_for_kbit_training
+68.2s 31 ----> 5 from trl import SFTTrainer, SFTConfig
+68.2s 32 6
+68.2s 33 7 MODEL_NAME = "codellama/CodeLlama-7b-Instruct-hf"
+68.2s 34 
+68.2s 35 ModuleNotFoundError: No module named 'trl'
+68.2s 36 
+70.4s 37 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+70.4s 38 cells[i][c] = re.sub('\\\\\|', '|', cell)
+70.5s 39 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+70.5s 40 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+71.2s 41 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+71.5s 42 [NbConvertApp] Writing 74929 bytes to __notebook__.ipynb
+73.9s 43 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+74.7s 44 [NbConvertApp] Writing 354762 bytes to __results__.html

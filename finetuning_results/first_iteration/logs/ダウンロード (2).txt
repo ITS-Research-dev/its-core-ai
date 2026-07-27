@@ -1,0 +1,200 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 7 0.00s - to python to disable frozen modules.
+8.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.6s 9 Sat Jul 25 14:30:21 2026
+9.6s 10 +-----------------------------------------------------------------------------------------+
+9.6s 11 | NVIDIA-SMI 580.159.04             Driver Version: 580.159.04     CUDA Version: 13.0     |
+9.6s 12 +-----------------------------------------+------------------------+----------------------+
+9.6s 13 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+9.6s 14 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+9.6s 15 |                                         |                        |               MIG M. |
+9.6s 16 |=========================================+========================+======================|
+9.7s 17 |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+9.7s 18 | N/A   36C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.7s 19 |                                         |                        |                  N/A |
+9.7s 20 +-----------------------------------------+------------------------+----------------------+
+9.7s 21 |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+9.7s 22 | N/A   37C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.7s 23 |                                         |                        |                  N/A |
+9.7s 24 +-----------------------------------------+------------------------+----------------------+
+9.7s 25 
+9.7s 26 +-----------------------------------------------------------------------------------------+
+9.7s 27 | Processes:                                                                              |
+9.7s 28 |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+9.7s 29 |        ID   ID                                                               Usage      |
+9.7s 30 |=========================================================================================|
+9.7s 31 |  No running processes found                                                             |
+9.7s 32 +-----------------------------------------------------------------------------------------+
+12.8s 33 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/44.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m44.1/44.1 kB[0m [31m1.5 MB/s[0m eta [36m0:00:00[0m
+14.5s 34 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.6/10.0 MB[0m [31m19.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.4/10.0 MB[0m [31m49.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m9.9/10.0 MB[0m [31m96.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.0/10.0 MB[0m [31m94.8 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.0/10.0 MB[0m [31m65.1 MB/s[0m eta [36m0:00:00[0m
+14.5s 35 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/365.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m365.7/365.7 kB[0m [31m25.3 MB/s[0m eta [36m0:00:00[0m
+14.9s 36 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/40.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.2/40.9 MB[0m [31m186.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.7/40.9 MB[0m [31m198.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m21.1/40.9 MB[0m [31m202.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m27.0/40.9 MB[0m [31m193.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━[0m [32m34.2/40.9 MB[0m [31m180.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m205.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m205.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m205.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m205.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m205.3 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m40.9/40.9 MB[0m [31m47.6 MB/s[0m eta [36m0:00:00[0m
+15.0s 37 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/566.4 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m24.6 MB/s[0m eta [36m0:00:00[0m
+15.0s 38 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.0/3.0 MB[0m [31m210.1 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/3.0 MB[0m [31m84.0 MB/s[0m eta [36m0:00:00[0m
+29.9s 39 [?25h/kaggle/input/datasets/hanzfr/soal-ujian/soal_ujian.json
+29.9s 40 /kaggle/input/datasets/hanzfr/nilai-ujian/nilai_ujian.json
+29.9s 41 /kaggle/input/datasets/hanzfr/train-data/train_data.jsonl
+30.0s 42 Usable examples: 1512
+38.7s 43 min/max: 274 1151
+38.7s 44 mean: 510.9298941798942
+38.7s 45 p95: 842
+38.8s 46 train: 1296, val: 216
+154.4s 47 /usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py:403: UserWarning: You passed a processing_class with `padding_side` not equal to `right` to the SFTTrainer. This might lead to some unexpected behaviour due to overflow issues when training a model in half-precision. You might consider adding `processing_class.padding_side = 'right'` to your code.
+154.4s 48 warnings.warn(
+154.4s 49 
+154.4s 50 /usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py:403: UserWarning: You passed a processing_class with `padding_side` not equal to `right` to the SFTTrainer. This might lead to some unexpected behaviour due to overflow issues when training a model in half-precision. You might consider adding `processing_class.padding_side = 'right'` to your code.
+154.4s 51 warnings.warn(
+154.6s 52 `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+154.6s 53 
+154.6s 54 `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+160.1s 55 Traceback (most recent call last):
+160.1s 56 File "<string>", line 1, in <module>
+160.1s 57 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+160.1s 58 raise_for_execution_errors(nb, output_path)
+160.1s 59 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+160.1s 60 raise error
+160.1s 61 papermill.exceptions.PapermillExecutionError:
+160.1s 62 ---------------------------------------------------------------------------
+160.1s 63 Exception encountered at "In [7]":
+160.1s 64 ---------------------------------------------------------------------------
+160.1s 65 RuntimeError                              Traceback (most recent call last)
+160.1s 66 /tmp/ipykernel_22/1225716949.py in <cell line: 0>()
+160.1s 67 62     peft_config=lora_config,
+160.1s 68 63 )
+160.1s 69 ---> 64 trainer.train()
+160.1s 70 65 trainer.save_model("/kaggle/working/final_model")
+160.1s 71 
+160.1s 72 /usr/local/lib/python3.12/dist-packages/transformers/trainer.py in train(self, resume_from_checkpoint, trial, ignore_keys_for_eval, **kwargs)
+160.1s 73 2121                 hf_hub_utils.enable_progress_bars()
+160.1s 74 2122         else:
+160.1s 75 -> 2123             return inner_training_loop(
+160.1s 76 2124                 args=args,
+160.1s 77 2125                 resume_from_checkpoint=resume_from_checkpoint,
+160.1s 78 
+160.1s 79 /usr/local/lib/python3.12/dist-packages/transformers/trainer.py in _inner_training_loop(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)
+160.1s 80 2479                     )
+160.1s 81 2480                     with context():
+160.1s 82 -> 2481                         tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+160.1s 83 2482
+160.1s 84 2483                     if (
+160.1s 85 
+160.1s 86 /usr/local/lib/python3.12/dist-packages/transformers/trainer.py in training_step(self, model, inputs, num_items_in_batch)
+160.1s 87 3577
+160.1s 88 3578         with self.compute_loss_context_manager():
+160.1s 89 -> 3579             loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+160.1s 90 3580
+160.1s 91 3581         del inputs
+160.1s 92 
+160.1s 93 /usr/local/lib/python3.12/dist-packages/transformers/trainer.py in compute_loss(self, model, inputs, return_outputs, num_items_in_batch)
+160.1s 94 3631                 loss_kwargs["num_items_in_batch"] = num_items_in_batch
+160.1s 95 3632             inputs = {**inputs, **loss_kwargs}
+160.1s 96 -> 3633         outputs = model(**inputs)
+160.1s 97 3634         # Save past state if it exists
+160.1s 98 3635         # TODO: this needs to be fixed and made cleaner later.
+160.1s 99 
+160.1s 100 /usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _wrapped_call_impl(self, *args, **kwargs)
+160.1s 101 1774             return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+160.1s 102 1775         else:
+160.1s 103 -> 1776             return self._call_impl(*args, **kwargs)
+160.1s 104 1777
+160.1s 105 1778     # torchrec tests the code consistency with the following code
+160.1s 106 
+160.1s 107 /usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _call_impl(self, *args, **kwargs)
+160.1s 108 1785                 or _global_backward_pre_hooks or _global_backward_hooks
+160.1s 109 1786                 or _global_forward_hooks or _global_forward_pre_hooks):
+160.1s 110 -> 1787             return forward_call(*args, **kwargs)
+160.1s 111 1788
+160.1s 112 1789         result = None
+160.1s 113 
+160.1s 114 /usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py in forward(*args, **kwargs)
+160.1s 115 821
+160.1s 116 822     def forward(*args, **kwargs):
+160.1s 117 --> 823         return model_forward(*args, **kwargs)
+160.1s 118 824
+160.1s 119 825     # To act like a decorator so that it can be popped when doing `extract_model_from_parallel`
+160.1s 120 
+160.1s 121 /usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py in __call__(self, *args, **kwargs)
+160.1s 122 809
+160.1s 123 810     def __call__(self, *args, **kwargs):
+160.1s 124 --> 811         return convert_to_fp32(self.model_forward(*args, **kwargs))
+160.1s 125 812
+160.1s 126 813     def __getstate__(self):
+160.1s 127 
+160.1s 128 /usr/local/lib/python3.12/dist-packages/torch/amp/autocast_mode.py in decorate_autocast(*args, **kwargs)
+160.1s 129 42     def decorate_autocast(*args, **kwargs):
+160.1s 130 43         with autocast_instance:
+160.1s 131 ---> 44             return func(*args, **kwargs)
+160.1s 132 45
+160.1s 133 46     decorate_autocast.__script_unsupported = (  # type: ignore[attr-defined]
+160.1s 134 
+160.1s 135 /usr/local/lib/python3.12/dist-packages/peft/peft_model.py in forward(self, input_ids, attention_mask, inputs_embeds, labels, output_attentions, output_hidden_states, return_dict, task_ids, **kwargs)
+160.1s 136 1991             with self._enable_peft_forward_hooks(**kwargs):
+160.1s 137 1992                 kwargs = {k: v for k, v in kwargs.items() if k not in self.special_peft_forward_args}
+160.1s 138 -> 1993                 return self.base_model(
+160.1s 139 1994                     input_ids=input_ids,
+160.1s 140 1995                     attention_mask=attention_mask,
+160.1s 141 
+160.1s 142 /usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _wrapped_call_impl(self, *args, **kwargs)
+160.1s 143 1774             return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+160.1s 144 1775         else:
+160.1s 145 -> 1776             return self._call_impl(*args, **kwargs)
+160.1s 146 1777
+160.1s 147 1778     # torchrec tests the code consistency with the following code
+160.1s 148 
+160.1s 149 /usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _call_impl(self, *args, **kwargs)
+160.1s 150 1785                 or _global_backward_pre_hooks or _global_backward_hooks
+160.1s 151 1786                 or _global_forward_hooks or _global_forward_pre_hooks):
+160.1s 152 -> 1787             return forward_call(*args, **kwargs)
+160.1s 153 1788
+160.1s 154 1789         result = None
+160.1s 155 
+160.1s 156 /usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py in forward(self, *args, **kwargs)
+160.1s 157 328
+160.1s 158 329     def forward(self, *args: Any, **kwargs: Any):
+160.1s 159 --> 330         return self.model.forward(*args, **kwargs)
+160.1s 160 331
+160.1s 161 332     def _pre_injection_hook(self, model: nn.Module, config: PeftConfig, adapter_name: str) -> None:
+160.1s 162 
+160.1s 163 /usr/local/lib/python3.12/dist-packages/accelerate/hooks.py in new_forward(module, *args, **kwargs)
+160.1s 164 190                 output = module._old_forward(*args, **kwargs)
+160.1s 165 191         else:
+160.1s 166 --> 192             output = module._old_forward(*args, **kwargs)
+160.1s 167 193         return module._hf_hook.post_forward(module, output)
+160.1s 168 194
+160.1s 169 
+160.1s 170 /usr/local/lib/python3.12/dist-packages/transformers/models/llama/modeling_llama.py in forward(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, labels, use_cache, output_attentions, output_hidden_states, return_dict, cache_position, num_logits_to_keep, **loss_kwargs)
+160.1s 171 1212         loss = None
+160.1s 172 1213         if labels is not None:
+160.1s 173 -> 1214             loss = self.loss_function(logits=logits, labels=labels, vocab_size=self.config.vocab_size, **loss_kwargs)
+160.1s 174 1215
+160.1s 175 1216         if not return_dict:
+160.1s 176 
+160.1s 177 /usr/local/lib/python3.12/dist-packages/transformers/loss/loss_utils.py in ForCausalLMLoss(logits, labels, vocab_size, num_items_in_batch, ignore_index, **kwargs)
+160.1s 178 44     # Enable model parallelism
+160.1s 179 45     shift_labels = shift_labels.to(shift_logits.device)
+160.1s 180 ---> 46     loss = fixed_cross_entropy(shift_logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+160.1s 181 47     return loss
+160.1s 182 48
+160.1s 183 
+160.1s 184 /usr/local/lib/python3.12/dist-packages/transformers/loss/loss_utils.py in fixed_cross_entropy(source, target, num_items_in_batch, ignore_index, **kwargs)
+160.1s 185 26     loss = nn.functional.cross_entropy(source, target, ignore_index=ignore_index, reduction=reduction)
+160.1s 186 27     if reduction == "sum":
+160.1s 187 ---> 28         loss = loss / num_items_in_batch
+160.1s 188 29     return loss
+160.1s 189 30
+160.1s 190 
+160.1s 191 RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0!
+160.1s 192 
+162.6s 193 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+162.6s 194 cells[i][c] = re.sub('\\\\\|', '|', cell)
+162.7s 195 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+162.7s 196 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+163.4s 197 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+163.8s 198 [NbConvertApp] Writing 229794 bytes to __notebook__.ipynb
+166.3s 199 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+167.2s 200 [NbConvertApp] Writing 484053 bytes to __results__.html

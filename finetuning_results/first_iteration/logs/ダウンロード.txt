@@ -1,0 +1,73 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.4s 7 0.00s - to python to disable frozen modules.
+8.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.6s 9 Sat Jul 25 14:20:01 2026
+9.6s 10 +-----------------------------------------------------------------------------------------+
+9.6s 11 | NVIDIA-SMI 580.159.04             Driver Version: 580.159.04     CUDA Version: 13.0     |
+9.6s 12 +-----------------------------------------+------------------------+----------------------+
+9.6s 13 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+9.6s 14 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+9.6s 15 |                                         |                        |               MIG M. |
+9.6s 16 |=========================================+========================+======================|
+9.6s 17 |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+9.6s 18 | N/A   46C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.6s 19 |                                         |                        |                  N/A |
+9.6s 20 +-----------------------------------------+------------------------+----------------------+
+9.6s 21 |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+9.6s 22 | N/A   43C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.6s 23 |                                         |                        |                  N/A |
+9.6s 24 +-----------------------------------------+------------------------+----------------------+
+9.6s 25 
+9.6s 26 +-----------------------------------------------------------------------------------------+
+9.6s 27 | Processes:                                                                              |
+9.6s 28 |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+9.6s 29 |        ID   ID                                                               Usage      |
+9.6s 30 |=========================================================================================|
+9.6s 31 |  No running processes found                                                             |
+9.6s 32 +-----------------------------------------------------------------------------------------+
+13.1s 33 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/885.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m880.6/885.0 kB[0m [31m43.5 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m885.0/885.0 kB[0m [31m24.5 MB/s[0m eta [36m0:00:00[0m
+13.4s 34 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/40.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.1/40.9 MB[0m [31m212.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14.5/40.9 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m21.7/40.9 MB[0m [31m208.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m28.8/40.9 MB[0m [31m207.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m36.1/40.9 MB[0m [31m206.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m208.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m208.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m208.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m208.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m40.9/40.9 MB[0m [31m208.9 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m40.9/40.9 MB[0m [31m48.1 MB/s[0m eta [36m0:00:00[0m
+18.2s 35 [?25h/kaggle/input/datasets/hanzfr/nilai-ujian/nilai_ujian.json
+18.2s 36 /kaggle/input/datasets/hanzfr/soal-ujian/soal_ujian.json
+18.2s 37 /kaggle/input/datasets/hanzfr/train-data/train_data.jsonl
+18.3s 38 Usable examples: 1512
+46.7s 39 min/max: 274 1151
+46.7s 40 mean: 510.9298941798942
+46.7s 41 p95: 842
+46.7s 42 train: 1296, val: 216
+55.6s 43 `torch_dtype` is deprecated! Use `dtype` instead!
+55.6s 44 
+55.6s 45 `torch_dtype` is deprecated! Use `dtype` instead!
+134.1s 46 Traceback (most recent call last):
+134.1s 47 File "<string>", line 1, in <module>
+134.1s 48 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+134.1s 49 raise_for_execution_errors(nb, output_path)
+134.1s 50 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+134.1s 51 raise error
+134.1s 52 papermill.exceptions.PapermillExecutionError:
+134.1s 53 ---------------------------------------------------------------------------
+134.1s 54 Exception encountered at "In [7]":
+134.1s 55 ---------------------------------------------------------------------------
+134.1s 56 TypeError                                 Traceback (most recent call last)
+134.1s 57 /tmp/ipykernel_23/1225716949.py in <cell line: 0>()
+134.1s 58 37 })
+134.1s 59 38
+134.1s 60 ---> 39 training_args = SFTConfig(
+134.1s 61 40     output_dir="/kaggle/working/checkpoints",
+134.1s 62 41     per_device_train_batch_size=2,
+134.1s 63 
+134.1s 64 TypeError: SFTConfig.__init__() got an unexpected keyword argument 'max_seq_length'
+134.1s 65 
+136.4s 66 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+136.4s 67 cells[i][c] = re.sub('\\\\\|', '|', cell)
+136.5s 68 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+136.5s 69 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+137.1s 70 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+137.4s 71 [NbConvertApp] Writing 171090 bytes to __notebook__.ipynb
+139.8s 72 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+140.7s 73 [NbConvertApp] Writing 431927 bytes to __results__.html
