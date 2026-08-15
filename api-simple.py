@@ -12,7 +12,7 @@ CORS(app)  # allow the standalone index.html to call this API
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
-def _ensure_v1(host: str) -> str:
+def _ensure_v1(host: str) -> str: 
     host = host.rstrip("/")
     if not host.endswith("/v1"):
         host += "/v1"
